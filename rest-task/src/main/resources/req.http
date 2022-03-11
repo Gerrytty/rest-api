@@ -1,0 +1,33 @@
+#POST http://localhost:5001/promo
+#Content-Type: application/json
+#
+#{
+#
+#  "name": "first promo",
+#  "description": "test"
+#
+#}
+#
+#GET http://localhost:5001/promo/1
+
+#POST http://localhost:5001/promo/1/participant
+#Content-Type: application/json
+#
+#{
+#
+#  "name": "Julia"
+#
+#}
+
+#POST http://localhost:5001/promo/1/prize
+#Content-Type: application/json
+#
+#{
+#
+#  "description": "super prize"
+#
+#}
+
+GET http://localhost:5001/promo/2/raffle
+
+//DELETE http://localhost:5001/promo/1/prize/2
